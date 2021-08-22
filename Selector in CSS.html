@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /*Element Selector */
+        body {
+            background-color:rgb(1, 66, 104);
+        }
+
+    /* . is for classes */
+    .secondary-heading {
+            color:coral;
+        }
+        .primary-heading{
+            color:rgb(216, 160, 8);
+        }
+        /* # is for IDs */
+        #welcome {
+            background-color: rgb(255, 255, 255);
+        }
+
+        #about{
+            background-color: rgb(202, 5, 48);
+        }
+
+        /*Multiple Selection */
+        #welcome {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* Nested Selector */
+        #welcome{
+            font-size: 20px;
+        }
+        #about {
+            font-style:normal;
+            color:rgb(175, 221, 248) ;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="secondary-heading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, officia? Repudiandae error perferendis dolores esse alias amet, unde eveniet ad, doloribus delectus dolorem optio eum quaerat ipsam mollitia enim eius nesciunt consequuntur doloremque eaque repellat explicabo iste soluta! Praesentium consectetur quas quisquam quos ad harum eos accusantium, distinctio dolores nemo?</p>
+    </div>
+    <div id="about">
+        <h2 class="primary-heading">About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi rerum, similique molestiae quam harum tempore nostrum sequi, nulla quis repudiandae. Provident corrupti sequi magnam culpa, aspernatur sunt exercitationem dolorem ipsa excepturi eius voluptate numquam ex illum nam et! Exercitationem itaque explicabo, incidunt, ducimus eius quos id quod sint tempora quo nostrum labore consectetur. Molestias consectetur aut quae delectus eum deleniti sapiente quas ipsam ea voluptatem expedita blanditiis nobis, recusandae qui possimus magni repudiandae pariatur! Iure placeat cumque quisquam pariatur eos nesciunt nobis esse, impedit hic ut explicabo rem in excepturi tempora illo. Molestiae nihil est animi vero dolorum. Ipsum!</p>
+    </div>
+</body>
+</html>
